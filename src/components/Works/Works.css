@@ -1,0 +1,48 @@
+.works {
+  padding: 30px;
+  margin-bottom: 7rem;
+}
+
+.dark {
+  color: #fff; /* Dark mode text color */
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 30px;
+}
+
+.skill {
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.skill p {
+  margin: 0;
+}
+
+.link-to-video {
+  display: block;
+  margin-top: 40px;
+  text-align: center;
+  color: #fff; /* Link text color */
+  background-color: #4eb2ff; /* Link background color */
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.link-to-video:hover {
+  background-color: #0056b3; /* Link background color on hover */
+  cursor: pointer;
+}
+@media screen and (max-width: 480px) {
+  .works {
+    padding-top: 0;
+  }
+}

@@ -1,0 +1,49 @@
+.About {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 180vh;
+  padding: 2rem;
+  margin-top: 1rem;
+}
+
+.timeline-container {
+  display: flex;
+  gap: 2rem;
+}
+
+/* Timeline entry cards */
+.timeline-entry {
+  background-color: #d1ecff;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 4px rgb(45, 132, 255);
+  transition: transform 0.3s ease; /* Add a smooth animation */
+}
+
+.timeline-entry:hover {
+  cursor: pointer;
+  transform: translateY(-7px); /* Lift the card slightly on hover */
+}
+
+.timeline-entry h2 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Other styles remain the same */
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+  .timeline-container{
+    margin-top: 50rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .timeline-entry {
+    width: 300px;
+  }
+}
