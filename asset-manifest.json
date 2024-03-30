@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Portfolyo/static/css/main.0a470ef7.css",
+    "main.js": "/Portfolyo/static/js/main.5dde3d26.js",
+    "static/media/resume.pdf": "/Portfolyo/static/media/resume.edbe4afd0637c5a55a65.pdf",
+    "static/media/glassesimoji.png": "/Portfolyo/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
+    "static/media/thumbup.png": "/Portfolyo/static/media/thumbup.e06790ba656f0397cbe5.png",
+    "static/media/humble.png": "/Portfolyo/static/media/humble.c8b32b53675e68978981.png",
+    "static/media/heartemoji.png": "/Portfolyo/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
+    "static/media/wave.png": "/Portfolyo/static/media/wave.fdfef4069ad90f610990.png",
+    "static/media/crown.png": "/Portfolyo/static/media/crown.dbe416beae9b49b842ab.png",
+    "static/media/Vector2.png": "/Portfolyo/static/media/Vector2.28db5bfd58081dd1df1b.png",
+    "static/media/glasses.png": "/Portfolyo/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
+    "index.html": "/Portfolyo/index.html",
+    "main.0a470ef7.css.map": "/Portfolyo/static/css/main.0a470ef7.css.map",
+    "main.5dde3d26.js.map": "/Portfolyo/static/js/main.5dde3d26.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a470ef7.css",
+    "static/js/main.5dde3d26.js"
+  ]
+}
